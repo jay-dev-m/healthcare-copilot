@@ -1,0 +1,14 @@
+definition_version: 2
+entities:
+  healthcare_copilot:
+    type: streamlit
+    identifier:
+      name: HEALTHCARE_COPILOT_APP
+      database: HEALTHCARE_COPILOT
+      schema: ANALYTICS
+    query_warehouse: COMPUTE_WH
+    main_file: streamlit_app.py
+    artifacts:
+      - streamlit_app.py
+      - environment.yml
+      - .streamlit/config.toml
